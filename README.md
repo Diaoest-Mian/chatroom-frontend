@@ -19,3 +19,5 @@ gulp
     s.src='//ws.tianba.tk/assets/chat.js';
     document.body.append(s);
     ```
+# 致谢
++ [icheer/chatroom-frontend](https://github.com/icheer/chatroom-frontend)

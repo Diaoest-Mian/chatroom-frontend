@@ -319,9 +319,9 @@ let dom = `
 </style>
 <div class="ctrm-container">
 	<div class="ctrm-title">
-		<span class="ctrm-title-span"><span class="ctrm-title-domain"></span>的聊天室 <span class="ctrm-title-countwrap" style="display: none;">(<span class="ctrm-title-count">0</span>)</span>&nbsp;&nbsp;<span class="ctrm-title-url"><a href="https://hacpai.com/article/1534741351807" target="_blank">powered by TopURL.cn</a></span></span>
-		<div class="ctrm-title-close" title="老板出没">▼</div>
-		<div class="ctrm-title-reconn" title="重新做人">囧</div>
+		<span class="ctrm-title-span">咖啡屋的聊天室 <span class="ctrm-title-countwrap" style="display: none;">(<span class="ctrm-title-count">0</span>)</span>&nbsp;&nbsp;<span class="ctrm-title-url"><a href="https://news.topurl.cn" target="_blank">今日新闻</a></span></span>
+		<div class="ctrm-title-close" title="我要去逛逛">▼</div>
+		<div class="ctrm-title-reconn" title="重新做人">☕</div>
 	</div>
 	<div class="ctrm-panel">
 		<div class="ctrm-dialog"></div>
@@ -332,10 +332,7 @@ let dom = `
 	</div>
 	<div class="ctrm-online">
 		<div class="ctrm-online-wrap"></div>
-		<div class="ctrm-domain">
-			<div class="ctrm-domain-title">本周尬聊排行榜</div>
-			<div class="ctrm-domain-wrap"></div>
-		</div>
+		
 	</div>
 </div>
 </div>

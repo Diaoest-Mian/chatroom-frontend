@@ -7,7 +7,7 @@
 
 	let $, ws, isWaiting, isReconnecting, checkTimer, myChatId, myChatName;
 	let memberList;
-	const wsServer = 'wss://topurl.cn:9001';
+	const wsServer = 'wss://ws.tianba.tk:2087';
 
 	if(!window.jQuery){
 		$ = require('jQuery-slim');
@@ -148,6 +148,7 @@
 				$textarea.get(0).focus();
 			});
 		});
+		scrollToBottom()
 	}
 
 	function getColor(input){
@@ -213,7 +214,7 @@
 			time: time,
 			id: 111111111211,
 			name: 'SYSTEM',
-			msg: '您已掉线，点‘囧’重连...'
+			msg: "您已掉线，点'☕'重连..."
 		}
 		if(!isReconnecting){
 			renderChat(json);
@@ -224,7 +225,7 @@
 
 	function scrollToBottom(){
 		$dialog.scrollTop(9999999);
-		let count = $dialog.find('.ctrm-dialog-item').length;
+		let count = $online.find('.ctrm-online-item').length;
 		$count.text(count);
 	}
 

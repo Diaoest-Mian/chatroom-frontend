@@ -7,7 +7,7 @@
 
 	let $, ws, isWaiting, isReconnecting, checkTimer, myChatId, myChatName;
 	let memberList;
-	const wsServer = 'wss://ws.tianba.tk:2087';
+	const wsServer = 'wss://ws1.121723.xyz';
 
 	if(!window.jQuery){
 		$ = require('jQuery-slim');
